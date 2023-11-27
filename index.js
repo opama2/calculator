@@ -32,7 +32,7 @@ buttons.forEach((x) => {
         if(x.className == "dot" && operator == "" && !operand1.includes(".") ) {
             operand1 += x.innerHTML
         }
-        if(x.className == "dot" && operator != "" && !operand1.includes(".") ) {
+        if(x.className == "dot" && operator != "" && !operrand2.includes(".") ) {
             operrand2 += x.innerHTML
         }
 
