@@ -161,3 +161,11 @@ function backspace() {
 
 del.addEventListener('click', backspace);
 
+
+
+
+
+
+
+
+

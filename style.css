@@ -105,3 +105,27 @@ button:active {
     width: 182px;
     flex-grow: 2;
 }
+
+
+
+footer  {
+    font-size: large;
+    color: beige;
+    position: fixed;
+    gap: 5px;
+    bottom: 10px;
+    text-align: center;
+
+}
+a {
+    font-size: large;
+    color: whitesmoke;
+    margin-left: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+a:hover {
+    opacity: 0.9;
+}
