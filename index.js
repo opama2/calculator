@@ -74,10 +74,9 @@ function substruct (a,b) {
     return a-b;
 }
 function divide (a,b) {
-    if(b = 0) {
-        return "why you tryna   break my calc by dividing by zero"
-    }
+  
     return a/b;
+    
 }
 
 function power (a,b) {
@@ -117,6 +116,7 @@ function operate() {
             solution = "why you tryna break my calc by dividing by zero";
 
         }
+        } 
         break;
 
         case"^":
