@@ -116,7 +116,7 @@ function operate() {
             solution = "why you tryna break my calc by dividing by zero";
 
         }
-        } 
+        
         break;
 
         case"^":
