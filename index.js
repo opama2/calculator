@@ -115,6 +115,7 @@ function operate() {
         solution = divide(Number(operand1),Number(operrand2));
         if (solution === Infinity) {
             solution = "why you tryna break my calc by dividing by zero";
+
         }
         break;
 
@@ -128,9 +129,12 @@ function operate() {
         break;
 };
 
-display.innerHTML = solution;
+display.innerHTML = solution ;
+if(solution == "why you tryna break my calc by dividing by zero" ){
+    solution = "";
+}
 return solution;
-    
+
 
 }
 
